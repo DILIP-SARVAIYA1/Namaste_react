@@ -14,3 +14,13 @@ npm install -D parcel ( -D is for dev dependency ther are 2 type of dependency d
 transitive dependency = in node module 
 npm install = it wil install node module as per package.json
 package-lock.json = maintain exact version of node module
+
+npx parcel index.html (ignight our app)
+npm = use for installing package
+npx = use for executing package
+
+npm install react = for install react node package
+npm install react-dom = for install react-DOM node package
+
+import react and add type="module" in our scripts file
+
