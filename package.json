@@ -1,0 +1,27 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DILIP-SARVAIYA1/Namaste_react.git"
+  },
+  "keywords": [
+    "React",
+    "Dilip",
+    "Sarvaiya"
+  ],
+  "author": "DILIP SARVAIYA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DILIP-SARVAIYA1/Namaste_react/issues"
+  },
+  "homepage": "https://github.com/DILIP-SARVAIYA1/Namaste_react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
