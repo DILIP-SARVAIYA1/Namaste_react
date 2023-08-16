@@ -10,14 +10,14 @@
 # npm
 
 - npm init = it will create package.json
-- npm install -D parcel ( -D is for dev dependency ther are 2 type of dependency dev dependency normal dependency)
+- npm install -D parcel ( -D is for dev dependency there are 2 type of dependency dev dependency normal dependency)
 - ^ = carat in package.json will minor update
-- ~ = tilday wil upgrade to major update
+- ~ = tilde wil upgrade to major update
 - transitive dependency = in node module
 - npm install = it wil install node module as per package.json
 - package-lock.json = maintain exact version of node module
 
-  npx parcel index.html (ignight our app)
+  npx parcel index.html (igniting our app)
   npm = use for installing package
   npx = use for executing package
 
@@ -30,21 +30,37 @@
 
 # Parcel
 
-- Dev buil
+- Dev build
 - Local server
 - HMR - Hot Module Replacement
-- File Waching Algorithm - Written in C++
+- File Watching Algorithm - Written in C++
 - Caching - Faster Build
 - Image Optimization
 - Minification
 - Bundling
 - Compress
-- Consitance Hashing
-- Code Spliting
-- Diffrencial Bundling - Support older browser
+- Constance Hashing
+- Code Splitting
+- Differential Bundling - Support older browser
 - Diagnostic
 - Error handling
 - HTTPs
 - Tree Shaking - Remove unused code
-- Diffrent Dev and Production Build
+- Different Dev and Production Build
 - npx parcel build index.html - for production build
+
+# browserslist
+
+- "last 2 versions" checkout this website = https://browserslist.dev/?q=bGFzdCA2IHZlcnNpb25z
+
+# Laying the foundation
+
+- npm start - behind the sins npm run start/ not work for npm build(you need to modify script in package.json (industry Standard))
+- React.createElement() => Object => HTMLElement(render)
+- it will replaced by element
+
+# JSX
+
+- JSX is html like syntax not HTML
+- JSX (transpile code before reaches the JS engine) => PARCEL => Babel
+- JSX => goes to babel and convert to React element - (Object) => render(Object => converted to HTML element and put on to DOM)
