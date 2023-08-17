@@ -64,3 +64,15 @@
 - JSX is html like syntax not HTML
 - JSX (transpile code before reaches the JS engine) => PARCEL => Babel
 - JSX => goes to babel and convert to React element - (Object) => render(Object => converted to HTML element and put on to DOM)
+
+# React Components
+
+- Class based components - OLD
+- Functional components - NEW
+
+# Functional components
+
+- First letters capital of components name
+- functional components are normal JS function which return some peace of JSX
+- If you have to multiple line you have to wrap it in to ()
+- Component inside components is called component composition
